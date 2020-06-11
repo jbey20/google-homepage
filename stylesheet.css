@@ -141,3 +141,43 @@ a:active {
   text-decoration: underline;
   color: rgb(70, 69, 69);
 }
+
+#search-google-logo {
+  height: 35px;
+}
+
+#search-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#search-page-form {
+  width: 600px;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.search-nav-item {
+  padding: 0 40px;
+}
+
+#right-nav-div {
+  display: flex;
+  justify-content: space-around;
+  min-width: 150px;
+  flex-shrink: 0;
+}
+
+#spacer {
+  flex-grow: 1;
+  min-width: 200px;
+}
+
+#search-page-form .text-input {
+  width: 550px;
+}

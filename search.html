@@ -1,139 +1,154 @@
 <!DOCTYPE html>
 <html lang=en>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Google</title>
-    <link rel="stylesheet" href="searchstyles.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Google</title>
+  <link rel="stylesheet" href="searchstyles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-    <header id="search-header">
-        <nav id="search-nav">
-          <img class="search-nav-item" alt="Google" id="search-google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-          <div class="textbar-class search-nav-item" id="search-page-form">
-            <form class="input-form" action="/search" style="overflow:visible" data-submitfalse="q" id="tsf" name="f">
-                <input class="text-input" maxlength="2048" name="q" type="text"  autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="" role="combobox" spellcheck="false" title="Search" value="" aria-label="Search">
-            </form>
-            <img class="textbar-img" id="voice-icon" src="https://blog.expertrec.com/wp-content/uploads/2019/06/Google-Voice.jpg">
-            <img class="textbar-img" id="search-icon" src="https://cdn4.iconfinder.com/data/icons/commenly-needed/400/Icon-12-512.png">
-          </div>
-          <div id="spacer"></div>
-          <div class="header-class" id="right-nav-div">
-            <a href="">
-              <i class="material-icons">apps</i>
+  <header id="search-header">
+    <nav id="search-nav">
+      <img class="search-nav-item" alt="Google" id="search-google-logo"
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+      <div class="textbar-class search-nav-item" id="search-page-form">
+        <form class="input-form" action="/search" style="overflow:visible" data-submitfalse="q" id="tsf" name="f">
+          <input class="text-input" maxlength="2048" name="q" type="text" autocapitalize="off" autocomplete="off"
+            autocorrect="off" autofocus="" role="combobox" spellcheck="false" title="Search" value=""
+            aria-label="Search">
+        </form>
+        <img class="textbar-img" id="voice-icon"
+          src="https://blog.expertrec.com/wp-content/uploads/2019/06/Google-Voice.jpg">
+        <img class="textbar-img" id="search-icon"
+          src="https://cdn4.iconfinder.com/data/icons/commenly-needed/400/Icon-12-512.png">
+      </div>
+      <div id="spacer"></div>
+      <div class="header-class" id="right-nav-div">
+        <a href="">
+          <i class="material-icons">apps</i>
+        </a>
+        <button class="header-btn" type="button" aria-label="Sign In"
+          action="https://accounts.google.com/SignOutOptions?hl=en&amp;continue=https://www.google.com/" role="button"
+          title="Sign In">Sign in
+        </button>
+      </div>
+    </nav>
+
+    <nav id="bottom-nav">
+      <ul id="left-bottom-nav-list">
+        <li class="bottom-nav-items">
+          <a class="bottom-nav-link">
+            <img src="img/search-color.png" class="icons">
+            All
+          </a>
+        </li>
+        <li class="bottom-nav-items">
+          <a class="bottom-nav-link">
+            <img src="img/news.png" class="icons">
+            News
+          </a>
+        </li>
+        <li class="bottom-nav-items">
+          <a class="bottom-nav-link">
+            <img src="img/maps.png" class="icons">
+            Maps
+          </a>
+        </li>
+        <li class="bottom-nav-items">
+          <a class="bottom-nav-link">
+            <img src="img/videos.png" class="icons">
+            Videos
+          </a>
+        </li>
+        <li class="bottom-nav-items">
+          <a class="bottom-nav-link">
+            <img src="img/images.png" class="icons">
+            Images
+          </a>
+        </li>
+        <li class="bottom-nav-items">
+          <div class="dropdown">
+            <a class="bottom-nav-link dropbtn" href="">
+              <span style="text-decoration: none;">
+                <i class="material-icons dropbtn">more_vert</i>
+              </span>
+              More
             </a>
-            <button class="header-btn" type="button" aria-label="Sign In" action="https://accounts.google.com/SignOutOptions?hl=en&amp;continue=https://www.google.com/" role="button" title="Sign In">Sign in
-            </button>
-          </div>
-        </nav>
 
-        <nav id="bottom-nav">
-          <ul id="left-bottom-nav-list">
-            <li class="bottom-nav-items">
-              <a class="bottom-nav-link">
-                <img src="img/search-color.png" class="icons">
-                All
-              </a>
-            </li>
-            <li class="bottom-nav-items">
-              <a class="bottom-nav-link">
-                <img src="img/news.png" class="icons">
-                News 
-              </a>
-            </li>
-            <li class="bottom-nav-items">
-              <a class="bottom-nav-link">
-                <img src="img/maps.png" class="icons">
-                Maps 
-              </a>
-            </li>
-            <li class="bottom-nav-items">
-              <a class="bottom-nav-link">
-                <img src="img/videos.png" class="icons">
-                Videos 
-              </a>
-            </li>
-            <li class="bottom-nav-items">
-              <a class="bottom-nav-link">
-                <img src="img/images.png" class="icons">
-                Images 
-              </a>
-            </li>
-            <li class="bottom-nav-items">
-              <div class="dropdown">
-                <a class="bottom-nav-link dropbtn" href="">
-                  <span style="text-decoration: none;">
-                    <i class="material-icons dropbtn">more_vert</i> 
-                  </span>
-                  More
-                </a>
+            <ul id="more-nav">
+              <div class="dropdown-content">
 
-                <ul id="more-nav">
-                <div class="dropdown-content">
 
-                  
 
-                      <li class="bottom-nav-items">
-                        <a class="bottom-nav-link">
-                          <img src="img/shopping.png" class="icons">
-                          Shopping
-                        </a>
-                      </li>
+                <li class="bottom-nav-items">
+                  <a class="bottom-nav-link">
+                    <img src="img/shopping.png" class="icons">
+                    Shopping
+                  </a>
+                </li>
 
-                      <li class="bottom-nav-items">
-                        <a class="bottom-nav-link">
-                          <img src="img/books.png" class="icons">
-                          Books
-                        </a>
-                      </li>
+                <li class="bottom-nav-items">
+                  <a class="bottom-nav-link">
+                    <img src="img/books.png" class="icons">
+                    Books
+                  </a>
+                </li>
 
-                      <li class="bottom-nav-items">
-                        <a class="bottom-nav-link">
-                          <img src="img/flights.png" class="icons">
-                          Flights
-                        </a>
-                      </li>
+                <li class="bottom-nav-items">
+                  <a class="bottom-nav-link">
+                    <img src="img/flights.png" class="icons">
+                    Flights
+                  </a>
+                </li>
 
-                      <li class="bottom-nav-items">
-                        <a class="bottom-nav-link">
-                          <img src="img/finance.png" class="icons">
-                          Finance
-                        </a>
-                      </li>
-                  
-
-                </div>
-              </ul>
+                <li class="bottom-nav-items">
+                  <a class="bottom-nav-link">
+                    <img src="img/finance.png" class="icons">
+                    Finance
+                  </a>
+                </li>
               </div>
-            </li>  
-          </ul>
-          
-          
-        </nav>
-    </header>
-        
-    <main>
-        
-    
-        
-    </main>
-
-    <footer>
-        <nav id="footer-nav">
-            <ul class="footer-class">
-                <li><a>Advertising</a></li>
-                <li><a>Business</a></li>
-                <li><a>How Search works</a></li>
             </ul>
+          </div>
+        </li>
+      </ul>
+      
+      <ul id="right-bottom-nav-list">
+        <li class="bottom-nav-items">
+          <a class="bottom-nav-link">Settings</a>
+        </li>
 
-            <ul class="footer-class">
-                <li><a>Privacy</a></li>
-                <li><a>Terms</a></li>
-                <li><a>Settings</a></li>
-            </ul>
-        </nav>
-    </footer>
+        <li>
+          <a class="bottom-nav-link" id="toolslink">Tools</a>
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <main>
+    test
+
+
+  </main>
+
+  <footer>
+    <nav id="footer-nav">
+      <ul class="footer-class">
+        <li><a>Advertising</a></li>
+        <li><a>Business</a></li>
+        <li><a>How Search works</a></li>
+      </ul>
+
+      <ul class="footer-class">
+        <li><a>Privacy</a></li>
+        <li><a>Terms</a></li>
+        <li><a>Settings</a></li>
+      </ul>
+    </nav>
+  </footer>
 </body>
 
 

@@ -24,11 +24,12 @@ li {
 }
 
 main {
-  padding: 45px;
-  padding-top: 150px;
+  padding: 45px 0 0 180px;
+  padding-top: 106px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex: 1;
 }
 
@@ -65,7 +66,7 @@ footer li {
 }
 
 .nav-img {
-  height: 20px;
+  height: 10px;
   display: block;
   color: gray;
 }
@@ -152,7 +153,7 @@ a:active {
 }
 
 #search-google-logo {
-  height: 35px;
+  height: 28px;
 }
 
 #search-nav {
@@ -195,7 +196,7 @@ a:active {
 
 #bottom-nav {
   position: fixed;
-  padding-left: 180px;
+  padding-left: 155px;
   top: 80px;
   width: 100%;
   font-size: 12px;
@@ -271,4 +272,55 @@ a:active {
 
 #right-bottom-nav-list {
   padding-left: 40px;
+}
+
+/* Search Result Styling starts here */
+.search-result-class {
+  font-size: 0;
+  margin: 1px;
+}
+
+.search-result-class p {
+  font-size: 17px;
+  margin: 1px;
+  color: rgba(82, 79, 79, 0.993);
+}
+
+.search-result-class a{
+  font-size: 20px;
+  padding: 0px;
+  color: blue;
+}
+
+.search-result-class .url-class{
+  color: darkgreen;
+  font-size: 17px;
+}
+
+article div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 300px;
+  padding: 10px 20px 20px 20px;
+}
+
+article section {
+  padding: 10px;
+  width: 300px;
+}
+
+.search-result-section p {
+  font-size: 15px;
+  color: rgba(82, 79, 79, 0.993);
+  width: 250px;
+}
+
+#search-stats-div p {
+  color: rgba(82, 79, 79, 0.993);
+  font-size: 13px;
+}
+
+#search-stats-div {
+  padding-bottom: 15px;
 }

@@ -1,5 +1,5 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: Roboto, arial, sans-serif;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -287,13 +287,13 @@ article {
   padding: 0px 0px 20px;
 }
 
-.search-result-class {
+.search-result-section {
   font-size: 0;
   margin: 1px;
 }
 
 .search-result-class p {
-  font-size: 15px;
+  font-size: 14px;
   margin: 1px;
   color: rgba(82, 79, 79, 0.993);
   max-width: 650px;
@@ -302,7 +302,7 @@ article {
 .search-result-class a{
   font-size: 20px;
   padding: 0px;
-  color: darkblue;
+  color: rgb(10, 10, 128);
 }
 
 .search-result-class .url-class{
@@ -314,7 +314,7 @@ article div {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 250px;
+  height: 220px;
   padding: 10px 20px 1px 20px;
 }
 
@@ -338,3 +338,35 @@ article section {
   padding-bottom: 15px;
 }
 
+.related-searches ul {
+  height: 120px;
+}
+
+.related-searches h3 {
+  font-size: 20px;
+  color: #222222;
+  font-weight: 400;
+}
+
+.related-searches a {
+  font-size: 14px;
+  color: #1A0DAB;
+  padding: 5px 15px 5px 0;
+}
+
+.related-searches span {
+  font-weight: bold;
+}
+
+.related-searches ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.google-search-logo {
+  align-self: center;
+  padding-top: 10px;
+}
